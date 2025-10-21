@@ -1,9 +1,9 @@
 # Sprint 3 Retrospective
 
 ## What went well in the previous sprint?
-- I refactored KoreanMusic page which configured the architecture of useKoreanMusics hook → koreanMusicService service → koreanMusicRepo repository → mockKoreanMusics test data. The data stays when you move to another page because of useState.
+- I refactored KoreanMusic page which configured the architecture of useKoreanMusics hook -> koreanMusicService service -> koreanMusicRepo repository -> mockKoreanMusics test data. The data stays when you move to another page because of useState.
 - I implemented Contact feature with EmailJS for email sending. It allowis end users to send inquiries to admins via a simple form. It used form components to deliver content in an organized layout.
-- I implemented MusicPlayerBar which configured the architecture of useYouTubeMusicsList hook → YouTubeMusicsListService service → YouTubeMusicsListRepo repository → youtubeMusicsList test data. It uses react-youtube to play music via YouTube video IDs.
+- I implemented MusicPlayerBar which configured the architecture of useYouTubeMusicsList hook -> YouTubeMusicsListService service -> YouTubeMusicsListRepo repository -> youtubeMusicsList test data. It uses react-youtube to play music via YouTube video IDs.
 - I wrote comment blocks for key components which is MusicPlayerBar, KoreanMusic, Login, and Contact. They explain how each component is configured and why it was created for the application.
 
 ## What could have gone better in the previous sprint, or went poorly?
